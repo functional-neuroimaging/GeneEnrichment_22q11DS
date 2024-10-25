@@ -4,10 +4,8 @@
 # genes associated to neurodevelopmental disorders.
 
 
-library(easypackages)
-libraries("here","ggplot2","WGCNA","limma","statmod","edgeR","biomaRt",
-          "sva","patchwork","Biobase","reshape2","genefilter","variancePartition",
-          "BiocParallel","tidyverse","gplots","enrichR","ggrepel","glue","ggtext","ggeasy")
+library(ggplot2)
+library(readxl)
 
 data_path='NDdisorders_genelist/'
 
